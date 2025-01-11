@@ -11,18 +11,18 @@ const Contact = () => {
         <div className="contact-info">
           <p>
             Have a question or want to work together? I’d love to hear from you.
-            Feel free to reach out using the form or directly via email or my
+            Feel free to reach out using the <strong>form</strong> or directly via email or my
             social platforms.
           </p>
           <ul className="contact-details">
             <li>
               📧 Email:{" "}
-              <a href="mailto:your-email@example.com">
+              <a href="mailto:rishavsubedi5@gmail.com">
                 Rishavsubedi5@gmail.com
               </a>
             </li>
             <li>
-              📞 Phone: <a href="tel:+1234567890">+977 9867779378</a>
+              📞 Phone: <a href="tel:+9779867779378">+977 9867779378</a>
             </li>
             <li>🌍 Location: Kathmandu, Nepal</li>
           </ul>
