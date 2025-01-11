@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/Contact.css"; // Include a custom CSS file for styling
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -16,47 +17,59 @@ const Contact = () => {
           <ul className="contact-details">
             <li>
               📧 Email:{" "}
-              <a href="mailto:your-email@example.com">Rishavsubedi5@gmail.com</a>
+              <a href="mailto:your-email@example.com">
+                Rishavsubedi5@gmail.com
+              </a>
             </li>
             <li>
               📞 Phone: <a href="tel:+1234567890">+977 9867779378</a>
             </li>
             <li>🌍 Location: Kathmandu, Nepal</li>
           </ul>
-          <div className="contact-links">
+          <div
+            className="contact-links"
+            style={{ display: "flex", gap: "10px" }}
+          >
+            {/* LinkedIn Icon Button */}
             <a
               href="https://www.linkedin.com/in/rishav-subedi-2635a0185/"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-secondary"
+              className="btn"
+              style={{ fontSize: "24px", color: "#0A66C2" }}
             >
-              LinkedIn
+              <FaLinkedin />
             </a>
+
+            {/* GitHub Icon Button */}
             <a
               href="https://github.com/Rishav-subedi"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-secondary"
+              className="btn"
+              style={{ fontSize: "24px", color: "#171515" }}
             >
-              GitHub
+              <FaGithub />
             </a>
+
+            {/* Instagram Icon Button */}
             <a
-              href="https://x.com/elonmusk"
+              href="https://www.instagram.com/_rishav.subedi/"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-secondary"
+              className="btn"
+              style={{ fontSize: "24px", color: "#E1306C" }}
             >
-              Twitter
+              <FaInstagram />
             </a>
           </div>
         </div>
 
         {/* Right Section: Contact Form */}
         <div className="contact-form-container">
-          <h3 style={{textAlign:'center'}}>Hit me up!!</h3>
-          <form 
+          <form
             className="contact-form"
-            action="https://formspree.io/f/xzzzkwwl" 
+            action="https://formspree.io/f/xzzzkwwl"
             method="POST"
           >
             <div className="form-group">

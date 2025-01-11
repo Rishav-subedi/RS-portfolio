@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header className="navbar">
       <div className="logo">
-        <a href="" target="_self">
+        <a href="/" target="_self">
         <img src="My_Logo.png" alt="Rishav Subedi" />
         </a>
         {/* <span className="logo-text">Rishav</span> */}
@@ -15,16 +15,13 @@ const Navbar = () => {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#about">Blog</a>
-          </li>
-          <li>
             <a href="#projects">Projects</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="RISHAV_SUBEDI.pdf" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </li>
